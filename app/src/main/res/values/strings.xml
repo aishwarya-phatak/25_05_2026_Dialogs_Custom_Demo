@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">25_05_2026_Dialogs_Custom_Demo</string>
+    <string name="enter_the_username">Enter the username</string>
+    <string name="enter_the_password">Enter the password</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="custom_dialog_way_1">Custom Dialog Way 1</string>
+    <string name="custom_dialog_way_2">Custom Dialog Way 2</string>
+    <string name="custom_dialog_way_3">Custom Dialog Way 3</string>
+    <string name="welcome">Welcome!</string>
+</resources>
