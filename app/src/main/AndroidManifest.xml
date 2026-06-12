@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme._25_05_2026_Dialogs_Custom_Demo">
         <activity
-            android:name=".MainActivity"
+            android:name=".SecondActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

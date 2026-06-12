@@ -17,6 +17,8 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
+    //way 1 ---> of creating custom dialogs
+
     Button btnDialogWay1, btnDialogWay2, btnDialogWay3, btnOk, btnCancel;
     EditText edtUsername, edtPassword;
     Dialog loginDialog;
@@ -27,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
         btnDialogWay1 = findViewById(R.id.btnDialogWay1);
-        btnDialogWay2 = findViewById(R.id.btnDialogWay2);
-        btnDialogWay3 = findViewById(R.id.btnDialogWay3);
+//        btnDialogWay2 = findViewById(R.id.btnDialogWay2);
+//        btnDialogWay3 = findViewById(R.id.btnDialogWay3);
 
         btnDialogWay1.setOnClickListener(new MyBtnCustomDialogWay1ClickListener());
     }
