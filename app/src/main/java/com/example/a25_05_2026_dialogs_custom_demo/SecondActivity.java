@@ -17,8 +17,8 @@ public class SecondActivity extends AppCompatActivity {
         btnWay2CustomDialog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                LoginDialog loginDialog1 = new LoginDialog(SecondActivity.this);
-                loginDialog1.show();
+                LoginDialog loginDialogWay2 = new LoginDialog(SecondActivity.this);
+                loginDialogWay2.show();
             }
         });
     }
